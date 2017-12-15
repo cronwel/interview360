@@ -1,0 +1,17 @@
+@import 'bootstrap';
+
+body {
+  font-family: Ailerons, Helvetica, sans-serif;
+}
+
+.navbar-default {
+  border-bottom: 2px solid black;
+}
+.homepage-top {
+  background: url(../images/hands.jpg);
+}
+
+.statement {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+}
