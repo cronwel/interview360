@@ -1,4 +1,4 @@
-GoogleAuth::Application.routes.draw do
+Rails.application.routes.draw do
   get 'auth/:provider/callback', to: 'session#create'
   get 'auth/failure', to: redirect('/')
   get 'signout', to: 'sessions#destroy', as: 'signout'
