@@ -6,7 +6,6 @@
 
 # Ignore bundler config.
 /.bundle
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -17,3 +16,5 @@
 /yarn-error.log
 
 .byebug_history
+
+'~/config/keys/prod.rb'
