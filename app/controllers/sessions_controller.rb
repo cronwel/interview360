@@ -9,4 +9,11 @@ class SessionsController < ApplicationController
     session[:user_id] =  nil
     redirect_to root_path
   end
+
+  protected
+
+  def auth_hash
+    request.env['omniauth.auth']
+
+  end
 end
