@@ -12,11 +12,11 @@
 !/log/.keep
 !/tmp/.keep
 
-.env
 
 /node_modules
 /yarn-error.log
 
 .byebug_history
 
-'~/config/keys/prod.rb'
+# Ignore application configuration
+/config/application.yml
